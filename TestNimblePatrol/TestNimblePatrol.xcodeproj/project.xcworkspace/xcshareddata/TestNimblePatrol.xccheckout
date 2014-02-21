@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7251127B-8CBB-4B11-A220-327142B5FD4C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestNimblePatrol</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6268C49-3118-4C51-A2C3-C323513E749A</key>
+		<string>https://github.com/moskino/repo1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestNimblePatrol/TestNimblePatrol.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6268C49-3118-4C51-A2C3-C323513E749A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/moskino/repo1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6268C49-3118-4C51-A2C3-C323513E749A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6268C49-3118-4C51-A2C3-C323513E749A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NimblePatrol</string>
+		</dict>
+	</array>
+</dict>
+</plist>

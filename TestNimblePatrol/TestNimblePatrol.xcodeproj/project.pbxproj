@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3BC859F18B7568C009BEAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BC859E18B7568C009BEAED /* Foundation.framework */; };
+		D3BC85A118B7568C009BEAED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BC85A018B7568C009BEAED /* CoreGraphics.framework */; };
+		D3BC85A318B7568C009BEAED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BC85A218B7568C009BEAED /* UIKit.framework */; };
+		D3BC85A918B7568C009BEAED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3BC85A718B7568C009BEAED /* InfoPlist.strings */; };
+		D3BC85AB18B7568C009BEAED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BC85AA18B7568C009BEAED /* main.m */; };
+		D3BC85AF18B7568C009BEAED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BC85AE18B7568C009BEAED /* AppDelegate.m */; };
+		D3BC85B218B7568C009BEAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BC85B018B7568C009BEAED /* Main.storyboard */; };
+		D3BC85B518B7568C009BEAED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BC85B418B7568C009BEAED /* ViewController.m */; };
+		D3BC85B718B7568C009BEAED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BC85B618B7568C009BEAED /* Images.xcassets */; };
+		D3BC85BE18B7568C009BEAED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BC85BD18B7568C009BEAED /* XCTest.framework */; };
+		D3BC85BF18B7568C009BEAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BC859E18B7568C009BEAED /* Foundation.framework */; };
+		D3BC85C018B7568C009BEAED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BC85A218B7568C009BEAED /* UIKit.framework */; };
+		D3BC85C818B7568C009BEAED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3BC85C618B7568C009BEAED /* InfoPlist.strings */; };
+		D3BC85CA18B7568C009BEAED /* TestNimblePatrolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BC85C918B7568C009BEAED /* TestNimblePatrolTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3BC85C118B7568C009BEAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3BC859318B7568C009BEAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3BC859A18B7568C009BEAED;
+			remoteInfo = TestNimblePatrol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3BC859B18B7568C009BEAED /* TestNimblePatrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNimblePatrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BC859E18B7568C009BEAED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3BC85A018B7568C009BEAED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3BC85A218B7568C009BEAED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3BC85A618B7568C009BEAED /* TestNimblePatrol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestNimblePatrol-Info.plist"; sourceTree = "<group>"; };
+		D3BC85A818B7568C009BEAED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3BC85AA18B7568C009BEAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3BC85AC18B7568C009BEAED /* TestNimblePatrol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestNimblePatrol-Prefix.pch"; sourceTree = "<group>"; };
+		D3BC85AD18B7568C009BEAED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3BC85AE18B7568C009BEAED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3BC85B118B7568C009BEAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3BC85B318B7568C009BEAED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3BC85B418B7568C009BEAED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3BC85B618B7568C009BEAED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3BC85BC18B7568C009BEAED /* TestNimblePatrolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNimblePatrolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BC85BD18B7568C009BEAED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D3BC85C518B7568C009BEAED /* TestNimblePatrolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestNimblePatrolTests-Info.plist"; sourceTree = "<group>"; };
+		D3BC85C718B7568C009BEAED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3BC85C918B7568C009BEAED /* TestNimblePatrolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNimblePatrolTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3BC859818B7568C009BEAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC85A118B7568C009BEAED /* CoreGraphics.framework in Frameworks */,
+				D3BC85A318B7568C009BEAED /* UIKit.framework in Frameworks */,
+				D3BC859F18B7568C009BEAED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BC85B918B7568C009BEAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC85BE18B7568C009BEAED /* XCTest.framework in Frameworks */,
+				D3BC85C018B7568C009BEAED /* UIKit.framework in Frameworks */,
+				D3BC85BF18B7568C009BEAED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3BC859218B7568C009BEAED = {
+			isa = PBXGroup;
+			children = (
+				D3BC85A418B7568C009BEAED /* TestNimblePatrol */,
+				D3BC85C318B7568C009BEAED /* TestNimblePatrolTests */,
+				D3BC859D18B7568C009BEAED /* Frameworks */,
+				D3BC859C18B7568C009BEAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3BC859C18B7568C009BEAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC859B18B7568C009BEAED /* TestNimblePatrol.app */,
+				D3BC85BC18B7568C009BEAED /* TestNimblePatrolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3BC859D18B7568C009BEAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC859E18B7568C009BEAED /* Foundation.framework */,
+				D3BC85A018B7568C009BEAED /* CoreGraphics.framework */,
+				D3BC85A218B7568C009BEAED /* UIKit.framework */,
+				D3BC85BD18B7568C009BEAED /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3BC85A418B7568C009BEAED /* TestNimblePatrol */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC85AD18B7568C009BEAED /* AppDelegate.h */,
+				D3BC85AE18B7568C009BEAED /* AppDelegate.m */,
+				D3BC85B018B7568C009BEAED /* Main.storyboard */,
+				D3BC85B318B7568C009BEAED /* ViewController.h */,
+				D3BC85B418B7568C009BEAED /* ViewController.m */,
+				D3BC85B618B7568C009BEAED /* Images.xcassets */,
+				D3BC85A518B7568C009BEAED /* Supporting Files */,
+			);
+			path = TestNimblePatrol;
+			sourceTree = "<group>";
+		};
+		D3BC85A518B7568C009BEAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC85A618B7568C009BEAED /* TestNimblePatrol-Info.plist */,
+				D3BC85A718B7568C009BEAED /* InfoPlist.strings */,
+				D3BC85AA18B7568C009BEAED /* main.m */,
+				D3BC85AC18B7568C009BEAED /* TestNimblePatrol-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3BC85C318B7568C009BEAED /* TestNimblePatrolTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC85C918B7568C009BEAED /* TestNimblePatrolTests.m */,
+				D3BC85C418B7568C009BEAED /* Supporting Files */,
+			);
+			path = TestNimblePatrolTests;
+			sourceTree = "<group>";
+		};
+		D3BC85C418B7568C009BEAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3BC85C518B7568C009BEAED /* TestNimblePatrolTests-Info.plist */,
+				D3BC85C618B7568C009BEAED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3BC859A18B7568C009BEAED /* TestNimblePatrol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BC85CD18B7568C009BEAED /* Build configuration list for PBXNativeTarget "TestNimblePatrol" */;
+			buildPhases = (
+				D3BC859718B7568C009BEAED /* Sources */,
+				D3BC859818B7568C009BEAED /* Frameworks */,
+				D3BC859918B7568C009BEAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestNimblePatrol;
+			productName = TestNimblePatrol;
+			productReference = D3BC859B18B7568C009BEAED /* TestNimblePatrol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3BC85BB18B7568C009BEAED /* TestNimblePatrolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3BC85D018B7568C009BEAED /* Build configuration list for PBXNativeTarget "TestNimblePatrolTests" */;
+			buildPhases = (
+				D3BC85B818B7568C009BEAED /* Sources */,
+				D3BC85B918B7568C009BEAED /* Frameworks */,
+				D3BC85BA18B7568C009BEAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3BC85C218B7568C009BEAED /* PBXTargetDependency */,
+			);
+			name = TestNimblePatrolTests;
+			productName = TestNimblePatrolTests;
+			productReference = D3BC85BC18B7568C009BEAED /* TestNimblePatrolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3BC859318B7568C009BEAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Cofi;
+				TargetAttributes = {
+					D3BC85BB18B7568C009BEAED = {
+						TestTargetID = D3BC859A18B7568C009BEAED;
+					};
+				};
+			};
+			buildConfigurationList = D3BC859618B7568C009BEAED /* Build configuration list for PBXProject "TestNimblePatrol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3BC859218B7568C009BEAED;
+			productRefGroup = D3BC859C18B7568C009BEAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3BC859A18B7568C009BEAED /* TestNimblePatrol */,
+				D3BC85BB18B7568C009BEAED /* TestNimblePatrolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3BC859918B7568C009BEAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC85B718B7568C009BEAED /* Images.xcassets in Resources */,
+				D3BC85A918B7568C009BEAED /* InfoPlist.strings in Resources */,
+				D3BC85B218B7568C009BEAED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BC85BA18B7568C009BEAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC85C818B7568C009BEAED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3BC859718B7568C009BEAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC85B518B7568C009BEAED /* ViewController.m in Sources */,
+				D3BC85AF18B7568C009BEAED /* AppDelegate.m in Sources */,
+				D3BC85AB18B7568C009BEAED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3BC85B818B7568C009BEAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BC85CA18B7568C009BEAED /* TestNimblePatrolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3BC85C218B7568C009BEAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3BC859A18B7568C009BEAED /* TestNimblePatrol */;
+			targetProxy = D3BC85C118B7568C009BEAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3BC85A718B7568C009BEAED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3BC85A818B7568C009BEAED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3BC85B018B7568C009BEAED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3BC85B118B7568C009BEAED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3BC85C618B7568C009BEAED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3BC85C718B7568C009BEAED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3BC85CB18B7568C009BEAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3BC85CC18B7568C009BEAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3BC85CE18B7568C009BEAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestNimblePatrol/TestNimblePatrol-Prefix.pch";
+				INFOPLIST_FILE = "TestNimblePatrol/TestNimblePatrol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3BC85CF18B7568C009BEAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestNimblePatrol/TestNimblePatrol-Prefix.pch";
+				INFOPLIST_FILE = "TestNimblePatrol/TestNimblePatrol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D3BC85D118B7568C009BEAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestNimblePatrol.app/TestNimblePatrol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestNimblePatrol/TestNimblePatrol-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestNimblePatrolTests/TestNimblePatrolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D3BC85D218B7568C009BEAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestNimblePatrol.app/TestNimblePatrol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestNimblePatrol/TestNimblePatrol-Prefix.pch";
+				INFOPLIST_FILE = "TestNimblePatrolTests/TestNimblePatrolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3BC859618B7568C009BEAED /* Build configuration list for PBXProject "TestNimblePatrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BC85CB18B7568C009BEAED /* Debug */,
+				D3BC85CC18B7568C009BEAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3BC85CD18B7568C009BEAED /* Build configuration list for PBXNativeTarget "TestNimblePatrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BC85CE18B7568C009BEAED /* Debug */,
+				D3BC85CF18B7568C009BEAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3BC85D018B7568C009BEAED /* Build configuration list for PBXNativeTarget "TestNimblePatrolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3BC85D118B7568C009BEAED /* Debug */,
+				D3BC85D218B7568C009BEAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3BC859318B7568C009BEAED /* Project object */;
+}
